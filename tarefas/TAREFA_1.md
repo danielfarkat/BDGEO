@@ -2,6 +2,10 @@
 
 ## Exercício 01
 
-- criar um diagrama ER de uma Universidade
+- Diagrama de um aluno e suas chaves
 
-![TAREFA_1_LETRA_A](BDGEO_TAREFA_ER.DRAWIO.png)
+![TAREFA_1_LETRA_A](aluno.DRAWIO.png)
+
+- Diagrama de Um departamento com os professores associados
+
+![TAREFA_1_LETRA_A](departamento.DRAWIO.png)
