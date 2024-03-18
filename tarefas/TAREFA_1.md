@@ -4,4 +4,4 @@
 
 - criar um diagrama ER de uma Universidade
 
-![TAREFA_1_LETRA_A](BDGEO_TAREFA_ER.PNG.DRAWIO)
+![TAREFA_1_LETRA_A](BDGEO_TAREFA_ER.DRAWIO.png)
