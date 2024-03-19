@@ -8,4 +8,12 @@
 
 - Diagrama de Um departamento com os professores associados
 
-![TAREFA_1_LETRA_A](departamento.DRAWIO.png)
+![TAREFA_1_LETRA_b](departamento.DRAWIO.png)
+
+- Diagrama de Um curso com as suas caracteristicas
+
+![TAREFA_1_LETRA_c](curso.DRAWIO.png)
+
+- Diagrama completo
+
+![diagrama_completo](diagrama_completo.drawio.png)
