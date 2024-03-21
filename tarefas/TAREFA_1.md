@@ -17,3 +17,9 @@
 - Diagrama completo
 
 ![diagrama_completo](diagrama_completo.drawio.png)
+
+## Tarefa 02
+
+- indiar as chaves primarias as chaves estrangeiras de todas as tabelas ou relações assim como outras constraints que devem ser geradas
+
+![Questão2](modelo_relacional_do_diagrama_er.drawio.png)
