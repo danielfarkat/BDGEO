@@ -90,4 +90,7 @@
 
 - Exitem varios estudos na área de cubos de dados;
 
-- Um exemplo é o mapa de uso e cobertura por que tem quebras de cada uma série através de  
+- Um exemplo é o mapa de uso e cobertura por que tem quebras de cada uma série através de 
+
+- Dado ard, para conseguir ter a reflectancia e a geração de mascara de núvem por exemplo o produto dois e existem máscaras de superficies;
+ 
