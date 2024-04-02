@@ -4,37 +4,37 @@
 
 - É uma ideia de que os dados que são granades não precisão ser salvos de forma linear e sim de forma constante. Ou seja, é uma base de dados do tipo necessário para Bigdata;
 
+# Database distrubido
 
-# Database distrubido 
+- O conceito mais geral é de distrubir as tarefas;
 
-- O conceito mais geral é de distrubir as tarefas; 
+- Cada computador é visto como um nó;
 
-- Cada computador é visto como um nó; 
-
-- Ai tem uma ideia de que cada computador pode ter um poder de processamento diferente; 
+- Ai tem uma ideia de que cada computador pode ter um poder de processamento diferente;
 
 # Big data
 
-- Não tem um limite; 
+- Não tem um limite;
 
-- É um conjunto de dados que está acima da abilidade de software data base tipico 
+- É um conjunto de dados que está acima da abilidade de software data base tipico
 
-## 3V 
+## 3V
+
 - Volume: cresce exponencialmente;
 
-- Variadade:  diferentes resoluções precisão ser levadas em concideração;
+- Variadade: diferentes resoluções precisão ser levadas em concideração;
 
 - Velocidade: Dado é gerado muito rápido e preciso ser processado;
 
 ## quem está trabalhando como big data
 
-- Instrumentos cinetificos; 
+- Instrumentos cinetificos;
 
-- Redes sociais; 
+- Redes sociais;
 
-- satélites; 
+- satélites;
 
-## Big data x base de dados relacional 
+## Big data x base de dados relacional
 
 - Não é escalável;
 
@@ -48,49 +48,50 @@
 
 - tipos de escalabilidade:
 
-	- horizontal, aumenta a quantidade de nós;
+  - horizontal, aumenta a quantidade de nós;
 
-	- Vertiacal, aumenta o tamanho de cada nó;
+  - Vertiacal, aumenta o tamanho de cada nó;
 
-# modelos de base de dados x  sistemas de gerenciamento de bases de dados
+# modelos de base de dados x sistemas de gerenciamento de bases de dados
 
 # NewSQL
 
 - Trás a tentativa de escalar os bancos de dados tanto verticalemente com horizontalmente;
 
-- É Tentar escalar os bancos de dados e realcionar distribuição de dados com os dados de um SQL comum; 
+- É Tentar escalar os bancos de dados e realcionar distribuição de dados com os dados de um SQL comum;
 
 # Brazil Data cube
 
-- Projeto que trabalha com grande quantidade de volumes de dados; 
+- Projeto que trabalha com grande quantidade de volumes de dados;
 
-- Modelas as imagens como cubos de imagens; 
+- Modelas as imagens como cubos de imagens;
 
 - Coloca varias imagens no tempo e coloca as bandas;
 
 - Bota lat long, e o tempo e para cada um ainda temos as bandas espectrais e ainda temos com valores de bados sobre sistemas;
 
-- exemplo de manipulação de 
+- exemplo de manipulação de
 
 - Brazil inteiro e em um espaço;
 
-- AS imagens são armazenados em cogs em um sistema de arquivo distribuido para armazenar as imagens, 
+- AS imagens são armazenados em cogs em um sistema de arquivo distribuido para armazenar as imagens,
 
-- Faz uma compuzição temporal em que a gente; 
+- Faz uma compuzição temporal em que a gente;
 
-- Faz uma caracterização de busca pelo melhor pixel durante um certo periodo  a gente compoe uma imagem que representa aquele periodo;
+- Faz uma caracterização de busca pelo melhor pixel durante um certo periodo a gente compoe uma imagem que representa aquele periodo;
 
 - Armazenado em COG(Cloud optmized Geotiff);
 
-- são salvos algumas informações as bandas espectrais da imagem original , índices de vegetação, máscara de nuvens, 
+- são salvos algumas informações as bandas espectrais da imagem original , índices de vegetação, máscara de nuvens,
 
 - Principal objetivo: estudar análise de cubos de dados
 
-- Onde se costuma a ter a ideia de buscar diversos sistemas capazes de capturar as variações ao longo do tempo; 
+- Onde se costuma a ter a ideia de buscar diversos sistemas capazes de capturar as variações ao longo do tempo;
 
 - Exitem varios estudos na área de cubos de dados;
 
-- Um exemplo é o mapa de uso e cobertura por que tem quebras de cada uma série através de 
+- Um exemplo é o mapa de uso e cobertura por que tem quebras de cada uma série através de
 
 - Dado ard, para conseguir ter a reflectancia e a geração de mascara de núvem por exemplo o produto dois e existem máscaras de superficies;
- 
+
+- Hoje tem se cubos mensais a cada 16 dias ou seja as vezes pode se ter mais de uma imagens de satélite
