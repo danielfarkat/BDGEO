@@ -56,7 +56,7 @@ CREATE TABLE Matricula (
 
 INSERT INTO Instrutor VALUES(1, 11111, 'Rodrigo Carvalho', 'Rua Alfa, num 50, Centro');
 INSERT INTO Instrutor VALUES(2, 22222, 'Jacqueline França', 'Rua Sete de Setembro, num 620, Alvorada');
-INSERT INTO Instrutor VALUES(3, 33333, 'Leandro Siqueira', 'Rua Nelson Davila, num 120, Centro');
+INSERT INTO Instrutor VALUES(3, 44444, 'Leandro Siqueira', 'Rua Nelson Davila, num 120, Centro');
 INSERT INTO Instrutor VALUES(4, 33333, 'Diego Faria', 'Rua Siqueira Campos, num 80, Jd Apolo');
 
 
@@ -97,7 +97,7 @@ INSERT INTO Curso VALUES(8, 'Database System and SQL', 240, '', 2);
 INSERT INTO Curso VALUES(9, 'Data Science', 240, '', 2);
 INSERT INTO Curso VALUES(10, 'Geoinformatics', 240, '', 2);
 
-INSERT INTO Turma (TurmaID, Datainicio, Datatermino, CursoID, InstrutorID) VALUES(1, to_date('2015-02-15', 'YYYY-MM-DD'), to_date('2015-06-15', 'YYYY-MM-DD'), 1, 1);
+INSERT INTO Turma (TurmaID, DataInicial, DataInicial, CursoID, InstrutorID) VALUES(1, to_date('2015-02-15', 'YYYY-MM-DD'), to_date('2015-06-15', 'YYYY-MM-DD'), 1, 1);
 INSERT INTO Turma (TurmaID, Datainicio, Datatermino, CursoID, InstrutorID) VALUES(2, to_date('2015-08-15', 'YYYY-MM-DD'), to_date('2015-12-15', 'YYYY-MM-DD'), 2, 1);
 INSERT INTO Turma (TurmaID, Datainicio, Datatermino, CursoID, InstrutorID) VALUES(3, to_date('2016-02-15', 'YYYY-MM-DD'), to_date('2016-06-15', 'YYYY-MM-DD'), 1, 1);
 INSERT INTO Turma (TurmaID, Datainicio, Datatermino, CursoID, InstrutorID) VALUES(4, to_date('2016-08-15', 'YYYY-MM-DD'), to_date('2016-12-15', 'YYYY-MM-DD'), 2, 1);
