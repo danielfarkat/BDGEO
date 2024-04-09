@@ -92,3 +92,7 @@
 ## bALDING BOX É O MENOR QUADRADO QUE ENQUADRE A SUPERFÍCIE
 
 - é uma área que precisa ser georreferênciada;
+
+- tenho uma quantidade de pontos e qual o menor retangulo que pode conter todos os pontos
+
+![alt text](image-6.png)
